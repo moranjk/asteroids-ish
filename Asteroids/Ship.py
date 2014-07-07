@@ -7,7 +7,7 @@ from Asteroids.Colors import *
 
 
 class Ship(Object):
-    radius = 10
+    radius = 20
 
     def __init__(self, window, game):
         Object.__init__(self, window, game)
